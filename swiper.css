@@ -1,0 +1,70 @@
+.swiper-content{
+    height: 100vh;
+    width: 75%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 25px;
+}
+
+.swiperbtn i{
+    color: #000;
+}
+
+.swiperbtn{
+    display: flex;
+    /* background-color: rgb(189, 189, 39); */
+    height: 20vh;
+    width: 50%;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.circle{
+    height: 60px;
+    width: 60px;
+    /* background: transparent; */ 
+    border: 2px solid gray;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+.circle:nth-child(2){
+    border: 2px solid rgb(219, 30, 30);
+}
+.circle:nth-child(3){
+    border: 2px solid rgb(52, 52, 236);
+}
+.circle:nth-child(4){
+    border: 2px solid rgb(31, 182, 94);
+}
+.circle:nth-child(5){
+    border: 2px solid rgb(146, 89, 238);
+}
+.circle:nth-child(5) i{
+    color: rgb(114, 72, 161) ;
+}
+.circle:nth-child(4) i{
+   color: rgb(28, 155, 91);
+}
+
+.circle:nth-child(3) i{
+    color: blue;
+}
+
+
+.circle i{
+    color: gray;
+    font-size: xx-large;
+    font-weight: 700;
+}
+.circle:nth-child(2) i{
+    color: gray;
+    font-size: 50px;
+    font-weight: 700;
+}

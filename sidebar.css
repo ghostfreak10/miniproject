@@ -1,0 +1,97 @@
+.sidebar{
+    height: 100vh;
+    width: 25%;
+    background-color: white;
+    filter: drop-shadow(2px 0px 4px #b9b9be);
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f0f2f4;
+    height: 13vh;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.logo{
+    height: 40px;
+    background: url('./assets/logo.jfif');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 40px;
+}
+
+.boxbtn{
+    display: flex;
+    gap: 20px;
+}
+
+.boxbtn li{
+    color: white;
+    background-color: #525355;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+    list-style: none;
+    font-size: 25px;
+    padding-top: 4px;
+}
+
+i{
+    color: white;
+}
+
+.contentbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+    /* background: #000; */
+}
+
+.option{
+    display: flex;
+    width: 100%;
+    font-weight: 500;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    /* background: #e0bdbd; */
+}
+
+.matches{
+    display: flex;
+    gap: 10px;
+    height: 80vh;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 45px;
+    display: none;
+}
+.b1{
+    margin-top: 15px;
+    height: 200px;
+    width: 130px;
+    border-radius: 12px;
+    background: linear-gradient(60deg,rgb(241, 26, 90),rgb(255, 72, 103),rgb(255, 137, 40));
+}
+
+.myp{
+    font-size: small;
+    word-wrap: break-word;
+}
+
+.messages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 40px;
+}
+

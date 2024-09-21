@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon"  sizes="16x16 32x32" href="./assets/weblogo.svg" type="image/x-icon" >
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>tinder clone</title>
+</head>
+<body>
+    <div class="container">
+        <!-- sidebar -->
+        <div class="sidebar">
+            <div class="box">
+                <div class="logo">
+                    
+                    <!-- <img src="./assets/logo.jfif" alt=""> -->
+                </div>
+                <div class="boxbtn">
+                    <li>
+                        <i class='bx bx-grid-alt'></i>
+                    </li>
+                    <li>
+                        <i class='bx bx-briefcase-alt'></i>
+                    </li>
+                    <li>
+                        <i class='bx bxs-shield' style='color:#fffdfd' ></i>
+                    </li>
+                </div>
+            </div>
+            <div class="contentbox">
+                <div class="option">    
+                    <span>Matches</span>
+                    <span>Messages</span>
+                </div>
+                <div class="matches">
+                    <div class="b1"></div>
+                    <h2>Start Matching</h2>
+                    <p class="myp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore necessitatibus, adipisci quibusdam similique, rerum voluptas dolorem distinctio dolores temporibus molestiae, veritatis debitis possimus.</p>
+                </div>
+                <div class="messages">
+                    <div class="msg">
+                        <img src="./assets/msg.png" alt="">
+                    </div>
+                    <h2>Say Hello</h2>
+                    <p class="myp">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi corporis, voluptatibus dignissimos rerum cupiditate reiciendis atque sapiente amet rem error obcaecati illum aliquid!</p>
+                </div>
+            </div>
+        </div>
+        <!-- swiper -->
+         <div class="swiper-content">
+             <div id="swiper">
+            </div>
+            <div class="swiperbtn">
+                <div class="circle">
+                    <i class="ri-restart-line"></i>
+                </div>
+                <!-- <ion-icon id="dislike" name="heart-dislike"></ion-icon> -->
+                <div class="circle">
+                    <i id="dislike" class='bx bx-x' style='color:#da1616'  ></i>
+                </div>
+                <div class="circle">
+                    <i class='bx bxs-star'></i>
+                </div>
+                <div class="circle">
+                    <i id="like" class='bx bxs-heart'></i>
+                </div>
+                
+                <div class="circle">
+                    <i class="ri-flashlight-line"></i>
+                </div>
+            </div>
+         </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="card.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
