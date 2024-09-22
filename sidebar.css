@@ -9,7 +9,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #f0f2f4;
+    /* background: #f0f2f4; */
+    background: linear-gradient(10deg,rgb(241, 26, 90),rgb(255, 72, 103),rgb(255, 137, 40));
     height: 13vh;
     width: 100%;
     padding: 0 20px;
@@ -29,8 +30,10 @@
     gap: 20px;
 }
 
+
 .boxbtn li{
     color: white;
+    /* transition: all 1s ease-in; */
     background-color: #525355;
     height: 40px;
     width: 40px;
@@ -46,6 +49,7 @@ i{
 }
 
 .contentbox{
+    /* display: none; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,14 +69,16 @@ i{
 }
 
 .matches{
+    /* display: none; */
     display: flex;
     gap: 10px;
-    height: 80vh;
+    /* height: 80vh; */
     flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-content: center;
+    /* background: #000; */
     padding: 0 45px;
-    display: none;
 }
 .b1{
     margin-top: 15px;
@@ -88,10 +94,147 @@ i{
 }
 
 .messages{
-    display: flex;
+    display: none;
+    /* display: flex; */
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding: 0 40px;
 }
 
+.boxbtn li i:hover{
+    color: rgb(255, 24, 24);
+}
+
+
+i{
+    transition: all 0.3s ease;
+}
+
+span{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px) {
+    .sidebar{
+        display: none;
+    }
+}
+
+.cur{
+    cursor: pointer;
+}
+
+.cur{
+    border: none;
+    font-size: large;
+    background:none;
+}
+
+.griddis{
+    height: 87vh;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(37, 37, 37);
+    /* justify-content: center; */
+    /* background-color: aqua; */
+}
+
+.verify{
+    background: url('assets/attachments/selfieverified_header_catalog_v4.webp');
+    background-position: center;
+    background-size: contain;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    height: 230px;
+    /* border-radius: 15%; */
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    /* gap: 80px; */
+    flex-direction: column;
+    padding-bottom: 25px;
+}
+
+.verify h3{
+    font-weight: 600;
+    color: white;
+    font-size: x-large;
+    /* text-align: center; */
+}
+
+.right{
+    position: relative;
+    left: 90px;
+}
+
+.right button{
+    border: none;
+    background:white;
+    color: rgb(39, 37, 37);
+    height: 35px;
+    width: 100px;
+    border-radius:100px;
+    font-weight: 600;
+    font-size: large;
+    letter-spacing: -1px;
+}
+
+.ex{
+    color: white;
+    width: 100%;
+    padding-left: 10px;
+    font-weight: 300;
+    margin-bottom: 6px;
+}
+
+.gridbox{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.gbox{
+    height: 130px;
+    width: 140px;
+    /* background-color: aquamarine; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+
+}
+
+.gbox:nth-child(2){
+    background:url('assets/attachments/optin_freetonight_background_catalog_v5.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gbox:nth-child(1){
+    background:url('assets/attachments/vert_recrop_lookingforlove.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gbox:nth-child(3){
+    background:url('assets/attachments/optin_letsbefriends_background_catalog_v5.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.gbox:nth-child(4){
+    background:url('assets/attachments/vert_notext_coffeedate_v100.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
