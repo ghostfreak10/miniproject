@@ -50,3 +50,7 @@ function hideShowgrid(){
     }
 }
 
+setTimeout(() => {
+    document.querySelector('.loader-container').style.display = 'none';
+}, 3000);
+  

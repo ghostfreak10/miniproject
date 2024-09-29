@@ -68,3 +68,15 @@
     font-size: 50px;
     font-weight: 700;
 }
+
+@media only screen and (max-width: 1200px) {
+    .swiper-content{
+        width: 100%;
+    }
+    #swiper {
+        height: 70vh;
+        /* aspect-ratio: 2 / 3; */
+        height: 250px;
+        width: 100px;
+      }
+}
