@@ -17,7 +17,7 @@ body{
     width: 100%;
     /* background: #f0f2f4; */
     background-color: rgb(0, 0, 0);
-
+    overflow: hidden;
 }
 * {
     margin: 0;

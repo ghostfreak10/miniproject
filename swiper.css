@@ -18,7 +18,7 @@
     display: flex;
     /* background-color: rgb(189, 189, 39); */
     height: 20vh;
-    width: 70%;
+    width: 100%;
     margin-top: 30px;
     justify-content: space-around;
 }
@@ -79,4 +79,16 @@
         height: 300px;
         width: 200px;
       }
+      .circle{
+        height: 40px;
+        width: 40px;
+        border: 2px solid gray;
+        border-radius: 50%;
+    }   
+    .swiperbtn{
+        display: flex;
+        justify-content: space-evenly;
+        /* background-color: white; */
+        width: 250px;
+    }
 }
