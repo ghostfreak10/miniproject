@@ -5,11 +5,13 @@ const dislike = document.querySelector('#dislike');
 
 // constants
 const urls = [
-  "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2019/04/gta.jpg?tf=1200x",
-  'https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/God_of_War_4_cover.jpg/220px-God_of_War_4_cover.jpg',
-  'https://m.media-amazon.com/images/I/51J6PtRgQrL._SX300_SY300_QL70_FMwebp_.jpg',
-  'https://store-images.s-microsoft.com/image/apps.34631.14293400522343232.ff4bf536-ec75-44c3-889f-731ca1db2127.d22625f3-a1bf-4c21-8d06-62085c900806',
-  'https://image.api.playstation.com/vulcan/ap/rnd/202008/0416/6Bo40lnWU0BhgrOUm7Cb6by3.png'
+  "./assets/attachments/img1.webp",
+  "./assets/attachments/img2.webp",
+  "./assets/attachments/img3.webp",
+  "./assets/attachments/img4.webp",
+  "./assets/attachments/img5.webp",
+  "./assets/attachments/img6.webp",
+  "./assets/attachments/img7.webp",
 ];
 
 // variables
@@ -18,7 +20,7 @@ let cardCount = 0;
 // functions
 function appendNewCard() {
   const card = new Card({
-    imageUrl: urls[cardCount % 5],
+    imageUrl: urls[cardCount % 7],
     onDismiss: appendNewCard,
     onLike: () => {
       like.style.animationPlayState = 'running';
@@ -39,6 +41,6 @@ function appendNewCard() {
 }
 
 // first 5 cards
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < 7; i++) {
   appendNewCard();
 }

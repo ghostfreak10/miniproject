@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+
+.signbox{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(to right,rgb(241, 26, 90),rgb(255, 72, 103),rgb(255, 137, 40));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign{
+    height: 500px;
+    width: 360px;
+    border:2px solid rgb(235, 235, 235);
+    border-radius: 20px;
+    box-sizing:border-box;
+   -moz-box-sizing:border-box;
+   -webkit-box-sizing:border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.logo img{
+    height: 50px;   
+}
+.logo p{
+    font-size: 60px;
+    color: white;
+}
+
+.down{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.signpara p{
+    font-size: small;
+    color: white;
+    width: 300px;
+}
+
+.signbtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 25px;
+}
+
+.signbtn button{
+    background: white;
+}
+.signbtn button:nth-child(1){
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-left:10px ;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    width: 300px;
+    /* background: transparent; */
+    border: 2px solid white;
+    align-items: center;
+}
+.signbtn button:nth-child(2){
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-left:10px ;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 30px;
+        border: 2px solid white;
+        align-items: center;
+    width: 300px;
+}
+.signbtn button:nth-child(3){
+    display: flex;
+    align-items: center;
+    /* gap: 50px; */
+    padding-left:10px ;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    width: 300px;
+    border: 2px solid white;
+    align-items: center;
+}
+
+.signbtn button:hover{
+    background: linear-gradient(10deg,rgb(241, 26, 90),rgb(255, 72, 103),rgb(255, 137, 40));
+}
+
+button i{
+    font-size: 30px;
+}
+
+.signpara {
+    font-size: small;
+    color: white;
+    text-align: center;
+    width: 300px;
+}
+
+.loader-container {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(180deg,rgb(241, 26, 90),rgb(255, 72, 103),rgb(255, 137, 40));
+    z-index: 1000;
+  }
+  .tinder-logo-loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    animation: pulse 1.5s infinite ease-in-out;
+  }
+  .tinderlogo{
+    height: 100px;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.1);
+      opacity: 0.8;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }  
+
+  a{
+    text-decoration: none;
+    color: black;
+}
+
+
+  

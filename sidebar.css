@@ -5,6 +5,7 @@
     background-color: #111111;
     filter: drop-shadow(2px 0px 4px #313131);
     color: white;
+    z-index: 99;
 }
 
 .box{

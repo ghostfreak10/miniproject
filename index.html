@@ -3,13 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="sidebar.css">
-    <link rel="stylesheet" href="swiper.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="./assets/weblogo.svg" type="image/x-icon" >
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>tinder clone</title>
+    <title>Tinder clone</title>
+    <link rel="stylesheet" href="sign.css">
 </head>
 <body>
     <div class="loader-container">
@@ -18,101 +13,31 @@
           <img class="tinderlogo" src="assets/l2.png" alt="">
         </div>
       </div>
-    <div class="container">
-        <!-- sidebar -->
-        <div class="sidebar">
-            <div class="box">
-                <div class="logo">
-                    
-                    <!-- <img src="./assets/logo.jfif" alt=""> -->
-                </div>
-                <div class="boxbtn">
-                    <li onclick="hideShowgrid()">
-                        <i class='bx bx-grid-alt'></i>
-                    </li>
-                    <li>
-                        <i class='bx bx-briefcase-alt'></i>
-                    </li>
-                    <li>
-                        <i class='bx bxs-shield' ></i>
-                    </li>
-                </div>
+    <div class="signbox">
+        <div class="sign">
+            <div class="logo">
+                <img src="./assets/l2.png" alt="">
+                <p>tinder</p>
             </div>
-            <div id="grid" class="contentbox">
-                <div class="option">    
-                    <button class="cur" onclick="hideShow1()">Matches</button>
-                    <button class="cur" onclick="hideShow2()">Messages</button>
-                    <!-- <button onclick="hideShow()">hello</button> -->
+            <div class="down">
+
+                <div class="signpara">
+                    <p>
+                        By tapping "Create account" or "Sign in", you agree to our Terms. Learn how we process your data in our Privacy Policy and Cookies Policy.
+                    </p>
                 </div>
-                <div id="match" class="matches">
-                    <div class="b1"></div>
-                    <h2>Start Matching</h2>
-                    <p class="myp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore necessitatibus, adipisci quibusdam similique, rerum voluptas dolorem distinctio dolores temporibus molestiae, veritatis debitis possimus.</p>
+                <div class="signbtn">
+                    <button>
+                        <a href="./signup.html">Create Account</a>
+                        </button>
+                    <button>
+                        <a href="./signup.html">Sign in</a>
+                        </button>
                 </div>
-                <div id="messg" class="messages">
-                    <div class="msg">
-                        <img src="./assets/msg.png" alt="">
-                    </div>
-                    <h2>Say Hello</h2>
-                    <p class="myp">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi corporis, voluptatibus dignissimos rerum cupiditate reiciendis atque sapiente amet rem error obcaecati illum aliquid!</p>
-                </div>
-            </div>
-            <div id="ungrid" class="griddis">
-                <div class="verify">
-                    <h3>Get Photo Verified</h3>
-                    <div class="right">
-                        <button>TRY NOW</button>
-                    </div>
-                </div>
-                <div class="ex">
-                    <h4>Welcome to Explore</h4>
-                    <p>My vibe...</p>
-                </div>
-                <div class="gridbox">
-                    <div class="gbox">
-                        <h3>Looking for Love</h3>
-                    </div>
-                    <div class="gbox">
-                        <h3>Free Tonight</h3>
-                    </div>
-                    <div class="gbox">
-                        <h3>Let's be Friends</h3>
-                    </div>
-                    <div class="gbox">
-                        <h3>Coffee Date</h3>
-                    </div>
-                </div>
+
             </div>
         </div>
-        <!-- swiper -->
-         <div class="swiper-content">
-             <div id="swiper">
-            </div>
-            <div class="swiperbtn">
-                <div class="circle">
-                    <i class="ri-restart-line"></i>
-                </div>
-                <!-- <ion-icon id="dislike" name="heart-dislike"></ion-icon> -->
-                <div class="circle">
-                    <i id="dislike" class='bx bx-x' style='color:#da1616'  ></i>
-                </div>
-                <div class="circle">
-                    <i class='bx bxs-star'></i>
-                </div>
-                <div class="circle">
-                    <i id="like" class='bx bxs-heart'></i>
-                </div>
-                
-                <div class="circle">
-                    <i class="ri-flashlight-line"></i>
-                </div>
-            </div>
-         </div>
     </div>
     <script src="main.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="card.js"></script>
-    <script src="script.js"></script>
 </body>
 </html>

@@ -53,4 +53,17 @@ function hideShowgrid(){
 setTimeout(() => {
     document.querySelector('.loader-container').style.display = 'none';
 }, 3000);
+
+
+let notifbtn=document.querySelector('.notifdiv');
+let closebtn=document.querySelector('#closebtn');
+
+function notdisplay(){
+    notifbtn.style.display='block';
+    
+}
+
+function closenotif(){
+    notifbtn.style.display='none';
+}
   

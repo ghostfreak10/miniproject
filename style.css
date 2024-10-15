@@ -28,7 +28,7 @@ body{
   #swiper {
     height: 70vh;
     /* aspect-ratio: 2 / 3; */
-    height: 600px;
+    height: 450px;
     width: 300px;
     perspective: 1000px;
     perspective-origin: center 50%;
